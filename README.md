@@ -1,44 +1,44 @@
-# 🐍 Computational Thinking Using Python 2º Semestre - FIAP
+# 🐍 Computational Thinking Using Python 2º Semestre - FIAP  
 
-## 📌 Sobre o repositório
-Este repositório contém os estudos, exercícios e projetos desenvolvidos durante a disciplina **Computational Thinking Using Python (CTUP)** do 2º semestre.  
-O objetivo é aplicar conceitos fundamentais de programação e lógica computacional com **Python**, explorando algoritmos, manipulação de dados, banco de dados e integração com APIs.
+## 📌 Sobre a disciplina  
 
----
-
-## 📚 Conteúdo Programático
-
-Durante o semestre, serão abordados os seguintes tópicos:
-
-- ✅ Tratamento de exceções  
-- 🔍 Algoritmos de busca:  
-  - Busca Linear  
-  - Busca Binária  
-- 📊 Algoritmos de Ordenação:  
-  - Bubble Sort  
-  - Insertion Sort  
-  - Selection Sort  
-  - Merge Sort  
-- ♻️ Recursão  
-- 📂 Manipulação de Arquivos  
-- 🗄️ Banco de Dados - Oracle  
-- 🌐 Consumo e Criação de APIs  
+A disciplina **Computational Thinking Using Python** tem como objetivo desenvolver competências em lógica de programação, estruturação de algoritmos e aplicação prática de Python no contexto acadêmico e profissional.  
+Durante o semestre, exploraremos desde fundamentos de algoritmos até integração com banco de dados e APIs.  
 
 ---
 
-### 🎯 Objetivos da disciplina  
+## 📒 Conteúdo Programático  
+- Tratamento de exceções  
+- Algoritmos de busca (Linear e Binária)  
+- Algoritmos de ordenação (Bubble Sort, Insertion Sort, Selection Sort e Merge Sort)  
+- Recursão  
+- Manipulação de arquivos  
+- Banco de Dados Oracle  
+- Consumo e criação de APIs  
 
-- 🧠 Desenvolver o **raciocínio lógico e abstrato** para resolução de problemas    
+---
+
+## 🎯 Objetivos da disciplina  
+
+- 🧠 Desenvolver o **raciocínio lógico e abstrato** para resolução de problemas  
+- 📊 Utilizar **fluxogramas** como ferramenta de mapeamento e planejamento de soluções computacionais  
 - 💡 Compreender e aplicar os **princípios da lógica de programação**  
 - 🔨 Representar e construir **algoritmos estruturados**  
 - ⚙️ Entender o **processo básico de desenvolvimento de software**  
 - 👀 Explorar diferentes formas de **visualizar soluções computacionais**  
 - 🐍 Dominar conceitos essenciais da **linguagem de programação Python**  
-- 🚀 Aplicar o conhecimento na **resolução prática de problemas** através de soluções computacionais  
-
-## 💬 Contato  
-Se quiser trocar uma ideia ou compartilhar dicas, me avise! 😊
+- 🚀 Aplicar o conhecimento na **resolução prática de problemas** através de soluções computacionais
 
 ---
 
-**✨ Obrigada por visitar meu repositório!  
+## 📚 O que você encontrará aqui?  
+- 📑 Anotações sobre conceitos e práticas aprendidas  
+- 🚀 Projetos e exercícios para reforçar o aprendizado  
+- 🔍 Casos de uso e aplicações práticas de Python no mundo real  
+
+---
+
+## 💬 Contato  
+Se quiser trocar uma ideia ou compartilhar dicas, me avise! 😊  
+
+✨ Obrigada por visitar meu repositório!  
