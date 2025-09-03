@@ -1,13 +1,13 @@
 # 🐍 Computational Thinking Using Python 2º Semestre - FIAP  
 
+
 ## 📌 Sobre a disciplina  
 
-A disciplina **Computational Thinking Using Python** tem como objetivo desenvolver competências em lógica de programação, estruturação de algoritmos e aplicação prática de Python no contexto acadêmico e profissional.  
-Durante o semestre, exploraremos desde fundamentos de algoritmos até integração com banco de dados e APIs.  
+A disciplina **Computational Thinking Using Python** tem como objetivo desenvolver o **raciocínio lógico** e a **capacidade de resolver problemas** usando Python. Nesse semestre aborderemos os seguintes tópicos: 
 
 ---
 
-## 📒 Conteúdo Programático  
+## 📒 Conteúdo Programático 
 - Tratamento de exceções  
 - Algoritmos de busca (Linear e Binária)  
 - Algoritmos de ordenação (Bubble Sort, Insertion Sort, Selection Sort e Merge Sort)  
