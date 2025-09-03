@@ -4,7 +4,7 @@
 
 A disciplina **Computational Thinking Using Python** tem como objetivo desenvolver o **raciocínio lógico** e a **capacidade de resolver problemas** usando Python. Nesse semestre aborderemos os seguintes tópicos: 
 
-## 📒 Conteúdo Programático 
+## 📒 Conteúdo Programático 2° Semestre
 
 - Tratamento de exceções;  
 - Algoritmos de busca (Linear e Binária);  
