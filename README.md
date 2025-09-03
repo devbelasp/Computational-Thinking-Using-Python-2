@@ -14,22 +14,23 @@ A disciplina **Computational Thinking Using Python** tem como objetivo desenvolv
 - Banco de Dados Oracle; 
 - Consumo e criação de APIs. 
 
-## 🎯 Objetivos da disciplina  
+## 🎯 Objetivos da disciplina - visão macro - ementa
 
-- 🧠 Desenvolver o **raciocínio lógico e abstrato** para resolução de problemas  
-- 📊 Utilizar **fluxogramas** como ferramenta de mapeamento e planejamento de soluções computacionais  
-- 💡 Compreender e aplicar os **princípios da lógica de programação**  
-- 🔨 Representar e construir **algoritmos estruturados**  
-- ⚙️ Entender o **processo básico de desenvolvimento de software**  
-- 👀 Explorar diferentes formas de **visualizar soluções computacionais**  
-- 🐍 Dominar conceitos essenciais da **linguagem de programação Python**  
-- 🚀 Aplicar o conhecimento na **resolução prática de problemas** através de soluções computacionais
+- 🧠 Desenvolver o **raciocínio lógico e abstrato** para resolução de problemas;  
+- 📊 Utilizar **fluxogramas** como ferramenta de mapeamento e planejamento de soluções computacionais; 
+- 💡 Compreender e aplicar os **princípios da lógica de programação**;
+- 🔨 Representar e construir **algoritmos estruturados**;  
+- ⚙️ Entender o **processo básico de desenvolvimento de software**; 
+- 👀 Explorar diferentes formas de **visualizar soluções computacionais**; 
+- 🐍 Dominar conceitos essenciais da **linguagem de programação Python**; 
+- 🚀 Aplicar o conhecimento na **resolução prática de problemas** através de soluções computacionais.
 
 
-## 📚 O que você encontrará aqui?  
-- 📑 Anotações sobre conceitos e práticas aprendidas  
-- 🚀 Projetos e exercícios para reforçar o aprendizado  
-- 🔍 Casos de uso e aplicações práticas de Python no mundo real  
+## 📚 O que você encontrará aqui?
+ 
+- 📑 <strong>Anotações</strong> sobre conceitos e práticas aprendidas.
+- 🚀 <strong>Projetos e exercícios</strong> para reforçar o aprendizado.
+- 🔍 <strong>Casos de uso e aplicações práticas</strong> de Java no mundo real.
 
 
 ## 💬 Contato
