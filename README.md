@@ -30,7 +30,7 @@ A disciplina **Computational Thinking Using Python** tem como objetivo desenvolv
  
 - 📑 <strong>Anotações</strong> sobre conceitos e práticas aprendidas.
 - 🚀 <strong>Projetos e exercícios</strong> para reforçar o aprendizado.
-- 🔍 <strong>Casos de uso e aplicações práticas</strong> de Java no mundo real.
+- 🔍 <strong>Casos de uso e aplicações práticas</strong> de Python no mundo real.
 
 
 ## 💬 Contato
