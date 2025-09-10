@@ -29,14 +29,14 @@ import oracledb
 #criar uma conexão com o Banco de Dados Oracle
 def getConnection():
     try:
-        connection = oracledb.connect(user = '********',
+        conn = oracledb.connect(user = '********',
                                       password='******', 
-                                      host='***********',
+                                      host='*************',
                                       port='****',
-                                      service_name='****')
+                                      service_name='*****')
     except Exception as e:
         print(f'Erro ao obter a conexão: {e}')
-    return connection
+    return conn
 
 def criar_tabela(conn):
     #obter uma conexão
@@ -62,10 +62,108 @@ def criar_tabela(conn):
         print(f'Erro de conexão: {e}')
 
 
+#Operações CRUD
+
+#Create (insert)
+def create_ceo(first_name, last_name, company, age):
+    print('*** Inserindo um novo CEO na tabela CEO_DETAILS ***')
+    conn = getConnection() #obtendo uma conexão com o BD Oracle
+       
+    #validação da conexão
+    if not conn:
+            return
+        
+    try:
+        cursor = conn.cursor() #obter um cursor
+        sql = """
+            INSERT INTO ceo_details (first_name, last_name, company, age)
+            VALUES (:first_name, :last_name, :company, :age)
+        """
+        cursor.execute(sql, {
+            'first_name': first_name,
+            'last_name' : last_name,
+            'company' : company,
+            'age' : age
+        })
+        conn.commit()
+        print(f'CEO {first_name} {last_name} foi adicionado com sucesso!')
+    except oracledb.Error as e:
+        print(f'Erro ao inserir CEO: {e}')
+        conn.rollback()
+    finally:
+        if conn:
+            conn.close()
+
+#Exibir os dados de todos os CEOs
+#Read (select)
+def read_ceos():
+    print(f'*** Lê e exibe todos os CEOs da tabela ***')
+
+    conn = getConnection()
+
+    if not conn:
+        return
+        
+    try: 
+        cursor = conn.cursor()
+        sql = """
+            SELECT id, first_name, last_name, company, age
+            FROM ceo_details ORDER BY id
+        """
+        cursor.execute(sql)
+        print(f'\n --- Lista de CEOs ---')
+        rows = cursor.fetchall()
+        for row in rows:
+            print(f'ID: {row[0]}, Nome: {row[1]} {row[2]}, Empresa: {row[3]}, Idade: {row[4]}')
+            print('----------------------------------------')
+    except oracledb.Error as e:
+        print(f'\nErro ao ler CEOs: {e}')
+    finally:
+        if conn:
+            conn.close()
+
+#Atualizar dados da tabela CEOs
+#Update
+def update_ceo(id, new_age):
+    print('*** Atualizando a idade de um CEO ***')
+    
+    conn = getConnection()
+
+    if not conn:
+        return
+    
+    try:
+        cursor = conn.cursor()
+        sql = """
+            UPDATE ceo_details SET age = :new_age
+            WHERE id = : id
+        """
+        cursor.execute(sql, {'new_age' : new_age, 'id' :id})
+        conn.commit()
+        if cursor.rowcount > 0:
+            print(f'Idade do CEO com ID {id} foi atualizada com sucesso!')
+        else:
+            print(f'Nenhum CEO com ID {id} foi encontrado!')
+    except oracledb.Error as e:
+        print(f'\nErro ao atualizar idade: {e}')
+        conn.rollback()
+    finally:
+        if conn:
+            conn.close()
+
 
 #Programa Principal
 conn = getConnection() #testando a conexão
 print(f'Conexão: {conn.version}')
-criar_tabela(conn)
 
+#criar_tabela(conn)
+#print('Fechando a conexão...')
+#conn.close()
 
+#create_ceo('Steve', 'Jobs', 'Apple', 50)
+#create_ceo('Bill', 'Gates', 'Microsoft', 55)
+#create_ceo('Wagner', 'Sanches', 'FIAP', 47)
+
+read_ceos()
+update_ceo(3, 48)
+read_ceos()
